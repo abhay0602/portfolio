@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!---boxicon-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" data-aos="flip-left">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">My Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home" data-aos="fade-up">
+      <div class="home-content">
+        <h3>Hello,It's Me</h3>
+        <h1>ABHY SAXENA</h1>
+        <h3>
+          And I'm a
+          <span class="text">Fronten Development Engineer Intern</span>
+        </h3>
+        <div class="social-media">
+          <a href="mailto:@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+          <a href="https://github.com/abhay0602"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/saxena-abhay/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <a href="./Abhay's CV.pdf" target="_blank" class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="img/IMG_20210924_120647.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about" data-aos="flip-left">
+      <div
+        class="about-img"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-duration="2000"
+      >
+        <img src="img/abhay about pic.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>
+          I am a highly motivated and experienced front-end developer with a
+          passion for creating beautiful and user-friendly web applications.I am
+          proficient in all aspects of the front-end development process,from
+          design to development to deployment.I am also a quick learner and
+          always eager to learn about new technologies.I am confident that I
+          have the skills and experience to be an asset to your team.
+        </p>
+        <p id="exta-p">
+          I am always up for a challenging role in a dynamic organization where I can apply my technical expertise and customer
+          service skills to drive customer satisfaction and business growth. I am seeking a front-end developer position in a fastpaced, innovative environment.
+        </p>
+        <a id="btn-rm" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="skills" id="skills" data-aos="fade-up">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skiils-row">
+        <div class="skills-column">
+          <h3 class="title">Coding Skills</h3>
+
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>HTML <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>CSS <span>85%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>JAVA Script <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Photoshop <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>PSD to HTML <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Bootstrap <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="portfolio"
+      id="portfolio"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
+    >
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <!-- <div class="pr-link">
+      <a class="btn" id="btn-100">ALL</a>
+      <a href="#" class="btn btn-101">HTML & CSS</a>
+      <a href="#" class="btn">JAVASCRIPT</a><a href="#" class="btn">JQUERY</a><a href="#" class="btn">BOOTSTRAP</a>
+      
+      </div> -->
+      <div class="portfolio-container">
+        <div class="portfolio-box calculator">
+          <div class="card"> <i class="bx bx-calculator"></i> </div>
+          <div class="portfolio-layer ">
+            <h3>Calculator</h3>
+
+            <a href="https://abhay0602.github.io/Calculator/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box weather">
+          <div class="card"><i class="bx bx-cloud-lightning"></i></div>
+          <div class="portfolio-layer">
+            <h3>Weather API</h3>
+
+            <a href="https://abhay0602.github.io/weather-api/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box to-do">
+          <div class="card"><i class=" bx bx-list-check"></i></div>
+          <div class="portfolio-layer">
+            <h3>To DO List</h3>
+
+            <a href="#" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box master-card">
+          <div class="card"> <i class="bx bx-credit-card"></i></div>
+          <div class="portfolio-layer">
+            <h3>Master Card</h3>
+
+            <a href="#" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box stop-watch">
+          <div class="card"><i class="bx bx-stopwatch"></i></div>
+          <div class="portfolio-layer">
+            <h3>Stop Watch</h3>
+
+            <a href="https://abhay0602.github.io/STOPWATCH/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" data-aos="fade-right">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <div class="address-portfolio">
+        <div class="add">
+          <span class="fa fa-location"></span>
+          <h3>Address</h3>
+          <a href="https://goo.gl/maps/xpbN4ZhnfkaxpDPL6" target="_blank">
+            <address>
+              <p>
+                Infinity House s304 <br />Gali No.3 <br />Near Prithvi Raj Chowk
+                Chalera,<br />sector 44,Noida
+              </p>
+            </address>
+          </a>
+        </div>
+        <div class="mail">
+          <span class="fa fa-envelope"></span>
+          <h3>E-Mail Me</h3>
+          <p class="pd">
+            <a class="pd" href="mailto:saxenaabhay.feb6@gmail.com"
+              >saxenaabhay.feb06@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="phone">
+          <span class="fa fa-phone"></span>
+          <h3>Call Me</h3>
+          <a href="tel:+918800403711">+91 8279649411</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>&copy; 2023 | All Right Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"
+          ><i class="fa-solid fa-arrow-right fa-rotate-270"></i
+        ></a>
+      </div>
+
+      <div class="social-media">
+        <a href="mailto:someone@example.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a href="https://github.com/abhay0602"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/saxena-abhay/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal --->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
