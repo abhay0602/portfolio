@@ -57,13 +57,13 @@ window.onbeforeunload = () => {
   };
   
   // Restore scroll position after the page reloads
-  window.onload = () => {
-    const scrollPosition = localStorage.getItem('scrollPosition');
-    if (scrollPosition) {
-      window.scrollTo(0, parseInt(scrollPosition));
-      localStorage.removeItem('scrollPosition');
-    }
-  };
+  // window.onload = () => {
+  //   const scrollPosition = localStorage.getItem('scrollPosition');
+  //   if (scrollPosition) {
+  //     window.scrollTo(0, parseInt(scrollPosition));
+  //     localStorage.removeItem('scrollPosition');
+  //   }
+  // };
   
 
   $(document).ready(function(){
