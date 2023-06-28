@@ -515,7 +515,7 @@ span{
         margin: 3rem 0;
     }
      
-    .home{flex-direction: column;}
+    .home{flex-direction: column; margin-top: 60px;}
     .home-content h3{
         font-size: 2.6rem;
     }
