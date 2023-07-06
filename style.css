@@ -191,9 +191,10 @@ span{
 }
 
 
+
 .skills-column .title{
-    font-size : 2.5rem;
-     margin: 2rem 0 3.5rem;
+    font-size: 2.5rem;
+    margin: 2rem 0 3.5rem;
 }
 
 .skills-box .skills-content{
@@ -378,11 +379,11 @@ span{
 .contact .add {height: 240px; width: 100%; border: 2px solid #0ef; padding: 20px; margin: 0px 10px;}
 .contact .mail{height: 240px; width: 100%; border: 2px solid #0ef; padding: 20px; margin: 0px 10px;}
 .contact .phone{height: 240px; width: 100%; border: 2px solid #0ef; padding: 20px; margin: 0px 10px;}
-.contact .whatsapp{height: 240px; width: 100%; border: 2px solid #0ef; padding: 20px; margin: 15px 10px;}
+.contact .whatsapp{height: 240px; width: 100%; border: 2px solid #0ef; padding: 20px; margin: 0px 10px;}
 
 
 .address-portfolio p{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin: .3rem 0 1rem;
     color: #fff;
 }
@@ -455,13 +456,14 @@ span{
     .header{
     padding: 2rem 3%;
     }
-
+      
     .home-content{margin: 0px auto; text-align: center;}
     .social-media a{margin: 0px 10px;}
     .btn{margin: 20px 0px;}
 
     section{
         padding: 10rem 3% 2rem;
+        flex-direction: column;
     }
     .about{flex-direction: column;}
     .about-content{text-align: center;}
@@ -474,12 +476,17 @@ span{
         padding-bottom: 7rem;
     }
 
-    .address-portfolio{margin: 20px 0px;}
+    .address-portfolio{margin: 20px 0px; flex-direction: column-reverse;}
 
     .pr-link{display: flex; flex-flow: wrap; justify-content: space-around;}
     .contact{
         min-height: auto;
     }
+
+    .contact .add {margin: 10px 0px;}
+    .contact .mail{margin: 10px 0px;}
+    .contact .phone {margin: 10px 0px;}
+    .contact .whatsapp{margin: 10px 0px;} 
 
     .footer{
         padding: 2rem 3%;
@@ -489,6 +496,8 @@ span{
 @media(max-width:867px){
 .home{flex-direction: column;}
 .home-img img{width: 100%; height: auto;}
+
+
 }
 
 @media (max-width: 768px){
@@ -565,7 +574,9 @@ span{
     .pr-link{justify-content: flex-start;}
     .pr-link a{margin-right: 20px;}
     .address-portfolio{display: flex; flex-direction: column;}
-    .address-portfolio .mail{margin: 20px 0px;}
+    /* .address-portfolio .mail{margin: 20px 0px;} */
+
+   
 }
 
 @media (max-width: 400px){
@@ -605,4 +616,6 @@ span{
         margin-top: 2rem;
     }
 }
+
+
 
